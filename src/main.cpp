@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     cv::Mat image = cv::Mat(image_ptr->height, image_ptr->width,
                                 CV_8UC3, image_ptr->data);
     cv::cvtColor(image, image, cv::COLOR_RGB2BGR);
-//    cv::imwrite("E:\\raw.png", image);
+    cv::imwrite("E:\\raw.png", image);
     cv::resize(image, image,cv::Size(0,0), 0.1, 0.1);
     cv::imshow("raw",image);
 

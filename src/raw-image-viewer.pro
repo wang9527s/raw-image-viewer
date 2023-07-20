@@ -16,11 +16,11 @@ DESTDIR = $$PWD/../bin/
 
 INCLUDEPATH += \
     $$PWD/../depend/opencv3.2.0/include \
-    $$PWD/../depend/LibRaw-0.21.0
+    $$PWD/../depend/LibRaw-0.21.1
 
 LIBS += \
     $$PWD/../depend/opencv3.2.0/x64_release/opencv_world320.lib \
-    $$PWD/../depend/LibRaw-0.21.0/release-x86_64/libraw.lib \
+    $$PWD/../depend/LibRaw-0.21.1/release-x86_64/libraw.lib \
 
 SOURCES += main.cpp
 
