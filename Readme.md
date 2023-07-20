@@ -1,3 +1,6 @@
 
-需要使用opencv读取sony单反相机拍摄的RAW格式图片。
-相机型号： ILCE-7RM4
+目的：使用opencv预览sony单反相机(ILCE-7RM4)拍摄的RAW格式图片。
+
++ 明亮度存在差距
+
+![image](./img_effect/20230720111155.png)
